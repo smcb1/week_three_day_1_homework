@@ -53,13 +53,13 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '16:5
 --2--SELECT name FROM people;
 --3--UPDATE people SET name = 'Kimberly Clark' WHERE name = 'Kimberly Clarke';
 --4--SELECT * FROM people WHERE name = 'Simon McBride';
---5--SELECT * FROM people WHERE id = '10';
---6--DELETE FROM movies WHERE title = 'Batman Begins';
---7--DELETE FROM movies WHERE id = '9';
---8--INSERT INTO people (name) VALUES ('John McCollum');
---9--DELETE FROM people WHERE name = 'John Smith';
---10--INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
---11--UPDATE movies SET show_time = '00:50' WHERE id = '16';
+--4--SELECT * FROM people WHERE id = '10';
+--5--DELETE FROM movies WHERE title = 'Batman Begins';
+--5--DELETE FROM movies WHERE id = '9';
+--6--INSERT INTO people (name) VALUES ('John McCollum');
+--7--DELETE FROM people WHERE name = 'John Smith';
+--8--INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2018, '00:00');
+--9--UPDATE movies SET show_time = '00:50' WHERE id = '16';
 
 --Extension
 --DELETE FROM movies WHERE title LIKE '%Guardians%';
